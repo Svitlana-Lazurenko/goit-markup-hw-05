@@ -284,16 +284,6 @@ main .list {
   margin-right: 30px;
 }
 
-.pre-about {
-  padding-top: 90px;
-}
-
-.pre-about,
-.about,
-.comand {
-  padding-bottom: 90px;
-}
-
 .main-title {
   font-size: 36px;
   line-height: 1.17;
@@ -304,10 +294,12 @@ main .list {
   margin: 0px auto 50px;
 }
 
-/* -------------Pre-About-Студія---------- */
+/* -------------Pre-About---------- */
 
 .pre-about {
   background-color: var(--primary-bg-color);
+
+  padding: 95px 0;
 }
 
 .pre-about-img {
@@ -343,6 +335,8 @@ main .list {
 
 .about {
   background-color: var(--primary-bg-color);
+
+  padding-bottom: 95px;
 }
 
 .thumb {
@@ -368,9 +362,11 @@ main .list {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-/* ------------Comand-Студія------------ */
+/* ------------Comand------------- */
 
 .comand {
+  padding: 95px 0;
+
   background-color: var(--second-bg-color);
 }
 
@@ -421,7 +417,7 @@ main .list {
 .clients {
   background-color: var(--primary-bg-color);
 
-  padding: 95px 0px;
+  padding: 95px 0;
 }
 
 .clients h2 {
