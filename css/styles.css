@@ -78,8 +78,7 @@ body {
   color: var(--accent-logo-color);
 }
 
-.hd-link,
-.desk {
+.hd-link {
   color: var(--second-text-color);
 }
 
@@ -95,12 +94,6 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.desk {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .soc-list > li {
@@ -339,6 +332,14 @@ main .list {
   margin-bottom: 10px;
 }
 
+.pre-about-desk {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
+}
+
 /* ------------About------------ */
 
 .about {
@@ -404,6 +405,8 @@ main .list {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
 
   margin-bottom: 15px;
 }
@@ -580,7 +583,7 @@ main .list {
   color: var(--hd-color);
 }
 
-.work-list .desk {
+.work-list .work-card {
   padding: 20px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -595,10 +598,12 @@ main .list {
   margin-bottom: 5px;
 }
 
-.desk-text {
+.work-desk {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
 }
 
 /* ------Footer---------- */
@@ -721,6 +726,7 @@ footer {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--hd-color);
 
   display: flex;
   justify-content: center;
