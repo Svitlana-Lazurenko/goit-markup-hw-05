@@ -1,9 +1,8 @@
 :root {
   --logo-color: #000000;
   --accent-logo-color: #2196f3;
-  --hd-color: #ffffff;
   --ft-color: #2f303a;
-  --primary-bg-color: #f5f5f5;
+  --primary-bg-color: #ffffff;
   --second-bg-color: #f5f4fa;
   --primary-text-color: #212121;
   --second-text-color: #757575;
@@ -121,7 +120,7 @@ body {
 
 .soc-list a:hover,
 .soc-list a:focus {
-  color: var(--hd-color);
+  color: var(--primary-bg-color);
   background-color: var(--accent-logo-color);
 }
 
@@ -132,7 +131,7 @@ body {
 /* ------------Header------------ */
 
 .header {
-  background-color: var(--hd-color);
+  background-color: var(--primary-bg-color);
 
   border-bottom: 1px solid #ececec;
 }
@@ -224,7 +223,7 @@ body {
 
 /*---------------Hero----------------- */
 .hero {
-  color: var(--hd-color);
+  color: var(--primary-bg-color);
   padding: 200px 0px 210px;
 }
 
@@ -365,7 +364,7 @@ main .list {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--hd-color);
+  color: var(--primary-bg-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
 
@@ -376,7 +375,6 @@ main .list {
 }
 
 .comand-item {
-  background: var(--hd-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -387,6 +385,8 @@ main .list {
 }
 
 .comand-card {
+  background: var(--primary-bg-color);
+
   padding: 30px;
 }
 
@@ -413,7 +413,7 @@ main .list {
 
 .comand-soc-link {
   color: var(--link-color);
-  background-color: var(--hd-color);
+  background-color: var(--primary-bg-color);
 }
 
 /* ----------Clients-------------- */
@@ -521,7 +521,7 @@ main .list {
 
 .btn-menu:hover,
 .btn-menu:focus {
-  color: var(--hd-color);
+  color: var(--primary-bg-color);
   background-color: var(--accent-logo-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -534,8 +534,6 @@ main .list {
   flex-wrap: wrap;
   gap: 30px;
   flex-basis: calc((100% - 20px) / 3);
-
-  background-color: var(--hd-color);
 }
 
 .work-list a {
@@ -580,7 +578,7 @@ main .list {
   line-height: 1.56;
   letter-spacing: 0.03em;
 
-  color: var(--hd-color);
+  color: var(--primary-bg-color);
 }
 
 .work-list .work-card {
@@ -625,7 +623,7 @@ footer {
 }
 
 .ft-logo-link {
-  color: var(--hd-color);
+  color: var(--primary-bg-color);
 }
 
 .address-list {
@@ -635,7 +633,7 @@ footer {
 }
 
 .physical-address {
-  color: var(--hd-color);
+  color: var(--primary-bg-color);
 
   transition-property: color;
   transition-duration: 250ms;
@@ -670,14 +668,14 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--hd-color);
+  color: var(--primary-bg-color);
 
   margin-top: 12px;
   margin-bottom: 20px;
 }
 
 .ft-soc-link {
-  color: var(--hd-color);
+  color: var(--primary-bg-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -698,7 +696,7 @@ footer {
 .modal {
   width: 530px;
   min-height: 580px;
-  background-color: var(--hd-color);
+  background-color: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -726,7 +724,7 @@ footer {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--hd-color);
+  background-color: var(--primary-bg-color);
 
   display: flex;
   justify-content: center;
