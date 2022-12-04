@@ -493,7 +493,7 @@ main .list {
 }
 
 .btn-list > li:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .btn-menu {
@@ -626,6 +626,10 @@ footer {
   font-style: inherit;
 
   margin-top: 30px;
+}
+
+.address-list li:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .physical-address {
